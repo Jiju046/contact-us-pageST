@@ -1,0 +1,98 @@
+.logo{
+    width: 80px;
+    height: 70px;
+    margin: 10px 30px;
+}
+
+body{
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+
+.submit{
+    color: black;
+    background-color: #D4ADFC;
+    width: 100px;
+}
+.submit:hover{
+    background-color: #9376E0;
+    color: white;
+}
+
+.form-control{
+    border: 1px solid #E3F2C1;
+}
+.form-label{
+    color: aliceblue;
+}
+.warning{
+    border: 1px solid red;
+}
+
+#viewInput{
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    width: 300px;
+}
+
+h3{
+    color: #9376E0;
+}
+
+h4{
+    color: #9376E0;
+}
+h2{
+    color: aliceblue;
+}
+
+#trigger{
+    display: none;
+}
+
+.c-image{
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.navbar{
+    background: linear-gradient(to right, #000000, #434343);
+    width: 100%;
+}
+
+.nav-link{
+    color: azure;
+}
+
+.form{
+    margin: 80px;
+    
+}
+
+.form-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px;
+}
+@media (max-width:867px){
+    .form-content{
+    width: 100%;
+    }
+}
+
+footer{
+    text-align: center;
+    color: grey;
+    margin: 2rem auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
